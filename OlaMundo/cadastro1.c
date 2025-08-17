@@ -9,6 +9,8 @@
         float altura2;
         char nome2[50];
     
+        //Entrada das informações do primeiro cadastro
+
         printf("Digite sua idade:\n");
         scanf("%d", &idade);
 
@@ -21,10 +23,7 @@
         printf("Digite sua matricula:\n");
         scanf("%d", &matricula);
 
-        printf("Nome do aluno: \n%s - Matricula: %d\n", nome, matricula);
-        printf("Idade: %d - Altura: %.1f" , idade, altura);
-
-        //Entrada do segundo cadastro
+        //Entrada das informações do segundo cadastro
 
         printf("Digite sua idade:\n");
         scanf("%d", &idade2);
@@ -38,8 +37,15 @@
         printf("Digite sua matricula:\n");
         scanf("%d", &matricula2);
 
-        printf("Nome do aluno: \n%s - Matricula: %d\n", nome2, matricula2);
-        printf("Idade: %d - Altura: %.1f" , idade2, altura2);
+        //Impressão na tela dos cadastros
+
+        Printf("Cadastro 1: \n")
+        printf("Nome do aluno: %s - Matricula: %d\n", nome, matricula);
+        printf("Idade: %d - Altura: %.1f\n" , idade, altura);
+
+        Printf("Cadastro 2: \n")
+        printf("Nome do aluno: %s - Matricula: %d\n", nome2, matricula2);
+        printf("Idade: %d - Altura: %.2f\n" , idade2, altura2);
 
         return 0;
 
