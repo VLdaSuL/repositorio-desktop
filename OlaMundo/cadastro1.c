@@ -39,11 +39,11 @@
 
         //Impressão na tela dos cadastros
 
-        Printf("Cadastro 1: \n")
+        printf("Cadastro 1: \n");
         printf("Nome do aluno: %s - Matricula: %d\n", nome, matricula);
         printf("Idade: %d - Altura: %.1f\n" , idade, altura);
 
-        Printf("Cadastro 2: \n")
+        printf("Cadastro 2: \n");
         printf("Nome do aluno: %s - Matricula: %d\n", nome2, matricula2);
         printf("Idade: %d - Altura: %.2f\n" , idade2, altura2);
 
