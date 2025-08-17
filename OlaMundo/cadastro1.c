@@ -5,7 +5,7 @@
         float altura;
         char nome[50];
 
-        print("Digite sua idade: \n");
+        printf("Digite sua idade: \n");
         scanf("%d", &idade);
 
         printf("Digite sua altura: \n");
